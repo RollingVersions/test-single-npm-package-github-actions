@@ -1,0 +1,5 @@
+{
+  "name": "@rollingversions/test-single-npm-package-github-actions",
+  "publishConfig": {"access": "public"},
+  "scripts": {"test": "echo tests passed"}
+}
