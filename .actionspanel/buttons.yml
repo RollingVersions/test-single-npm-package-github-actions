@@ -1,0 +1,4 @@
+buttons:
+  - title: Release
+    action: "rollingversions_publish_approved"
+    description: Release pending changes, bypassing the Rolling Versions app
