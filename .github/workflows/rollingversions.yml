@@ -29,4 +29,4 @@ jobs:
           node-version: 12.x
       - run: npm install
       - run: echo "//registry.npmjs.org/:_authToken=${NPM_TOKEN}" > ~/.npmrc
-      - run: npx @rollingversions/canary publish --github-token ${{ secrets.GITHUB_TOKEN }}
+      - run: npx @rollingversions/canary publish
